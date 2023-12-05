@@ -1,6 +1,6 @@
 // src/index.js
-const express = require("express");
-const dotenv = require("dotenv");
+import express, { Express, Request, Response } from "express";
+import dotenv from "dotenv";
 
 /*
  * Load up and parse configuration details from
@@ -14,12 +14,12 @@ dotenv.config();
  * value of the PORT environment variable
  * from the `process.env`
  */
-const app = express();
+const app: Express = express();
 const port = process.env.PORT || 3000;
 
 /* Define a route for the root path ("/")
  using the HTTP GET method */
-app.get("/", (req, res) => {
+app.get("/", (req: Request, res: Response) => {
   res.send("Express + TypeScript Server");
 });
 
