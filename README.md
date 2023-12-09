@@ -1,4 +1,4 @@
-# ts-node-express
+# TypeScript x Express x Node.js
 
 This repository contains a basic TypeScript Express application that utilizes Node.js for server-side functionality. It is configured with Nodemon for automatic server restarts during development and uses ts-node for TypeScript execution.
 
@@ -6,7 +6,7 @@ This repository contains a basic TypeScript Express application that utilizes No
 
 Before you begin, ensure you have the following installed on your machine:
 
-- [Node.js](https://nodejs.org/) v16+: Ensure that Node.js is installed on your system.
+- [Node.js](https://nodejs.org/): Ensure that Node.js, preferably version 16 or higher, is installed on your system, as this project utilizes the latest versions of TypeScript and Nodemon.
 - [npm](https://www.npmjs.com/): npm is the package manager for Node.js and comes with the Node.js installation.
 
 ## Installation
@@ -23,7 +23,7 @@ Navigate to the project directory:
 cd ts-node-express/
 ```
 
-Install the project dependencies:
+Install the project dependencies including TypeScript and Nodemon:
 
 ```
 npm i
@@ -52,7 +52,7 @@ The project structure is organized as follows:
 
 - `src`: Contains TypeScript source files
     - `index.ts`: Configures and starts the Express application
-- `dist`: Output directory created at build times for compiled TypeScript files
+- `dist`: Output directory created during build for compiled TypeScript files
 - `package.json`: Project configuration and dependencies
 - `tsconfig.json`: TypeScript configuration
 
