@@ -2,6 +2,10 @@
 
 This repository contains a basic TypeScript Express application that utilizes Node.js for server-side functionality. It is configured with Nodemon for automatic server restarts during development and uses ts-node for TypeScript execution.
 
+If you are not familiar with a TypeScript workflow, consider checking out [the JavaScript branch](https://github.com/c99rahul/ts-node-express/tree/javascript) of this repository.
+
+Feeling lost? Go through [the tutorial](https://blog.logrocket.com/how-to-set-up-node-typescript-express/) that this repository is built upon.
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:
