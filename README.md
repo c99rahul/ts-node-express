@@ -6,6 +6,8 @@ If you are not familiar with a TypeScript workflow, consider checking out [the J
 
 Feeling lost? Go through [the tutorial](https://blog.logrocket.com/how-to-set-up-node-typescript-express/) that this repository is built upon.
 
+![Monitoring the Changes Detected By Nodemon](https://github.com/c99rahul/ts-node-express/assets/70071346/888bfc19-7034-4270-9696-04fc2b9fcb29)
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:
